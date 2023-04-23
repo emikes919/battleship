@@ -28,7 +28,6 @@ export default class Player {
     fireSmartShot (gameBoard) {
         // check if board contains any hit locs, if not, fire random shot at board
         if (gameBoard.checkIfNoHits()) {
-            console.log('entering checkIfNoHits()...')
             const shotLoc = this.fireRandomShot(gameBoard);
             return shotLoc; // exit function entirely
         }
