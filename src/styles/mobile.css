@@ -1,0 +1,150 @@
+@media (max-width: 600px) {
+    
+    /*** START GAME PAGE ***/
+
+    #start-game-container {
+        padding: 15px;
+        gap: 20px;
+    }
+
+    #title-div {
+        font-size: 3.3rem;
+    }
+    
+    #start-game-form {
+        min-width: 200px;
+        gap: 20px;
+    }
+
+    #mobile-notification {
+        display: flex;
+        margin-top: 0;
+        font-size: .8rem;
+    }
+
+
+    /*** GAME SETUP PAGE ***/
+
+    #nav-bar {
+        font-size: 3.3rem;
+    }
+
+    #setup-instruction-text-container {
+        width: 350px;
+        font-size: 0.75rem;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    
+    #axis-toggle {
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+    
+    #setup-board-container {
+        grid-template-columns: repeat(10, 35px);
+        grid-template-rows: repeat(10, 35px);
+        font-size: 0.8rem;
+    }
+    
+    
+    /*** GAMEPLAY PAGE ***/
+    
+    #game-text-container {
+        width: 350px;
+        font-size: 0.8rem;
+        padding: 10px 15px 10px 15px;
+        border-radius: 4px;
+    }
+
+    #gameplay-container {
+        width: 350px;
+        padding: 15px;
+        gap: 17px;
+    }
+
+    #score-board {
+        justify-content: center;
+    }
+
+    #score-board-title {
+        font-size: .7rem;
+    }
+
+    #score-board-left,
+    #score-board-right {
+        display: none;
+    }
+
+    #live-score {
+        font-size: 2rem;
+    }
+
+    #gameboards-container {
+        flex-direction: column;
+    }
+
+    .gameboard-container {
+        gap: 10px;
+    }
+
+    .player-title-mobile {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: var(--font-2);
+        font-size: .9rem;
+        font-weight: lighter;
+    }
+
+    .gameboard {
+        grid-template-columns: repeat(10, 32px);
+        grid-template-rows: repeat(10, 32px);
+        font-size: 0.7rem;
+    }
+    
+    .position-div > span {
+        font-size: 0.9rem;
+        /* transform: scale(0.7) */
+    }
+
+
+    /*** POPUP MODALS ***/
+
+    .popup-modal {
+        padding: 20px;
+        min-width: 250px;
+        border-radius: 4px;
+        gap: 15px;
+    }
+
+    .modal-title {
+        font-size: 1.5rem;
+    }
+    
+    .modal-btn {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #ship-sunk-modal-title {
+        font-size: 2rem;
+    }
+    
+    #ship-sunk-modal-image {
+        width: 100px;
+    }
+    
+    #ship-sunk-modal > .modal-text-container {
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    
+    .modal-text {
+        font-size: .8rem;
+    }
+
+    #game-over-modal-image {
+        width: 200px;
+    }
+}
